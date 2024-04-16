@@ -16,6 +16,8 @@ Qodly Color Input is a lightweight component designed to facilitate color select
 
 If you need to input a color manually, follow these steps:
 
+![Color Picker With Input](public/colorPickerInput.png)
+
 - Add a text input field to your application.
 - Bind the text input field to the same dataSource as the color picker component.
 - Any changes made in the text input field will automatically update the color value in the color picker component.
