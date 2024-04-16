@@ -4,10 +4,12 @@ Qodly Color Input is a lightweight component designed to facilitate color select
 
 ![Color Picker Component](public/colorPicker.png)
 
-## features
+## Features
 
 **Easy Integration:** Simply bind the component to a dataSource to enable color selection.
+
 **Visual Color Picker:** Users can easily select colors using the intuitive color picker interface.
+
 **Manual Input Option:** Need to paste or type a specific color? You can also bind a text input field to the same dataSource, ensuring flexibility in color selection methods.
 
 ## How to paste or type a color?
