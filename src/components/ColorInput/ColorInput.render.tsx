@@ -16,7 +16,7 @@ const ColorInput: FC<IColorInputProps> = ({ defaultColor, style, className, clas
 
     const listener = async (/* event */) => {
       const v = await ds.getValue<string>();
-      setValue(v);
+      setValue(v || defaultColor);
     };
 
     listener();
