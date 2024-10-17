@@ -56,7 +56,7 @@ export default {
     },
   },
   defaultProps: {
-    defaultColor: '#000000',
+    defaultColor: '#fff',
   },
 } as T4DComponentConfig<IColorInputProps>;
 

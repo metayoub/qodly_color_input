@@ -30,11 +30,7 @@ const ColorInput: FC<IColorInputProps> = ({ defaultColor, style, className, clas
   }, [ds]);
 
   const changeColor = (color: string) => {
-    if (ds) {
-      ds.setValue<string>(null, color);
-    } else {
-      setValue(color);
-    }
+    ds ? ds.setValue<string>(null, color) : setValue(color);
   };
 
   return (
